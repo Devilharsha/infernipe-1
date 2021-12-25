@@ -145,9 +145,9 @@ DONATE_STRING = """Contact to **@PegasusXrobot**"""
 HELP_IMG= "https://telegra.ph/file/9d2c6e3b28afe7619856e.jpg"
 GROUPSTART_IMG= "https://telegra.ph/file/aac824153c53d30e7abb4.mp4"
 
-PM_IMG = ( "https://telegra.ph/file/9d2c6e3b28afe7619856e.jpg",
-           "https://telegra.ph/file/9aed3b24431552db6d87d.jpg",
-           "https://telegra.ph/file/f9ff50b0dd2e8495e05b4.jpg",
+PM_IMG = ( "https://telegra.ph/file/de7298c3c004ec829796f.jpg",
+           "https://telegra.ph/file/28999b8ab0525770229bf.jpg",
+           "https://telegra.ph/file/9729d89a47b37eb9e47ce.jpg",
            "https://telegra.ph/file/faa39df112687081fe7b8.jpg",
            "https://telegra.ph/file/0abbb865bd479c8460efe.jpg", )
 
@@ -274,7 +274,7 @@ def start(update: Update, context: CallbackContext):
                 [
                   [
                   InlineKeyboardButton(text="✧ Support ", url=f"https://telegram.dog/{SUPPORT_CHAT}"),
-                  InlineKeyboardButton(text="✧ Updates ", url=f"t.me/VegetaUpdates"),
+                  InlineKeyboardButton(text="✧ Updates ", url=f"t.me/sctbots"),
                   ]
                 ]
             ),
@@ -448,7 +448,7 @@ def get_help(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="Help",
-                                url="t.me/{}?start=ghelp_{}".format(
+                                url="t.me/{Infernipe_bot}?start=ghelp_{}".format(
                                     context.bot.username, module
                                 ),
                             )
@@ -464,7 +464,7 @@ def get_help(update: Update, context: CallbackContext):
                     [
                         InlineKeyboardButton(
                             text="Help",
-                            url="t.me/{}?start=help".format(context.bot.username),
+                            url="t.me/{Infernipe_bot}?start=help".format(context.bot.username),
                         )
                     ]
                 ]
@@ -634,7 +634,7 @@ def get_settings(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="Settings",
-                                url="t.me/{}?start=stngs_{}".format(
+                                url="t.me/{Infernipe_bot}?start=stngs_{}".format(
                                     context.bot.username, chat.id
                                 ),
                             )
